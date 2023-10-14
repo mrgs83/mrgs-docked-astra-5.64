@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TARGET_PATH="/boot/config/plugins/dockerMan/templates-user/astra-template.xml"
-TEMPLATE_URL="https://raw.githubusercontent.com/mrgs83/mrgs-docked-astra/main/astra-template.xml"
+TARGET_PATH="/boot/config/plugins/dockerMan/templates-user/astra-5.64-template.xml"
+TEMPLATE_URL="https://raw.githubusercontent.com/mrgs83/mrgs-docked-astra-5.64/main/astra-5.64-template.xml"
 
 log_message() {
     echo "[$(date +'%Y-%m-%d %H:%M:%S')] - $1"
