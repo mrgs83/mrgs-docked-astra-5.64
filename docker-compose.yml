@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  astra:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - /mnt/user/appdata/astra/license.txt:/etc/astra/license.txt
+      - /mnt/user/appdata/astra/astra.conf:/etc/astra/astra.conf
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    restart: unless-stopped
