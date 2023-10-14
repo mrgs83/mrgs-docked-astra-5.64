@@ -13,7 +13,7 @@ then
     exit 1
 fi
 
-log_message "Attempting to download Astra Docker template..."
+log_message "Attempting to download Astra 5.64 Docker template..."
 
 if wget "${TEMPLATE_URL}" -O "${TARGET_PATH}" -q -N --waitretry=1 --retry-connrefused --timeout=5 --tries=3; then
     log_message "Template downloaded successfully."
