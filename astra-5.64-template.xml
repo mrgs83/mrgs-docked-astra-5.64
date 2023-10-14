@@ -6,9 +6,9 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/mrgs83/mrgs-docked-astra/issues</Support>
+  <Support>https://github.com/mrgs83/mrgs-docked-astra-5.64/issues</Support>
   <Project/>
-  <Overview>A Docker container for Astra</Overview>
+  <Overview>A Docker container for Astra 5.64</Overview>
   <Category>Media:Video Applications:</Category>
   <WebUI>http://[IP]:[PORT:8000]/</WebUI>
   <Icon>https://raw.githubusercontent.com/mrgs83/logos/main/astra_sat.png</Icon>
