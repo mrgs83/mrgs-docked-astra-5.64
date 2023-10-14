@@ -5,7 +5,7 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y curl
 
 # Download Astra binary
-RUN curl -Lo /usr/bin/astra https://cesbo.com/astra-latest && \
+RUN curl -Lo https://raw.githubusercontent.com/mrgs83/mrgs-docked-astra-5.64/main/astra && \
     chmod +x /usr/bin/astra
 
 # Expose port for Astra
